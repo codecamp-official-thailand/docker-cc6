@@ -1,6 +1,6 @@
 import axios from "axios";
 
-axios.defaults.baseURL = "http://localhost:8000";
+axios.defaults.baseURL = "http://103.74.254.228:8000";
 
 axios.interceptors.request.use(
   (config) => {
